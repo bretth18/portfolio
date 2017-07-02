@@ -1,0 +1,14 @@
+#contact.hero.is-primary  {
+  background-color: #070600;
+  color: #EA526F;
+}
+
+#contact.hero.is-primary .title {
+  color: #EA526F;
+}
+
+#mylilicon {
+  border-right: 20px;
+  border-left: 20px;
+  border-top: 70px;
+}

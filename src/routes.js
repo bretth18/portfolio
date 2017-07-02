@@ -2,8 +2,10 @@ import React from 'react';
 import { IndexRoute, Router, Route, hashHistory } from 'react-router';
 import Home from './containers/Home';
 import App from './containers/App';
+
 import Stuff from './components/Stuff/Stuff';
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 export default (
 
@@ -12,7 +14,7 @@ export default (
       <IndexRoute component={Home}/>
       <Route path="stuff" component={Stuff} />
       <Route path="about" component={About} />
-      {/* <Route path="contact" component={Contact} /> */}
+      <Route path="contact" component={Contact} />
     </Route>
   </Router>
 );

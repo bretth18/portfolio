@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Link, IndexLink } from 'react-router';
 import './NavigationBar.css';
 
-import { NavToggle, NavRight, NavItem } from 'bloomer';
+import { NavToggle, NavRight } from 'bloomer';
 
 
 export default class NavigationBar extends Component {
@@ -30,7 +30,7 @@ export default class NavigationBar extends Component {
       <nav className="nav has-shadow">
         <div className="container">
           <div className="nav-left">
-            <h1 className="title" id="navtitle"> bretth18 </h1>
+            <h1 className="title" id="navtitle"><IndexLink to="/" activeClassName="active" id="navtitle"> bretth18 </IndexLink></h1>
           </div>
 
           <NavToggle isActive={this.state.isActive} onClick={this.showToggleNav} />

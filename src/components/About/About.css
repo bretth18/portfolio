@@ -11,3 +11,9 @@
   background-color: #EA526F;
   background-blend-mode: multiply;
 }
+#about.title {
+  color: #EA526F;
+}
+a {
+  color:#EA526F;
+}

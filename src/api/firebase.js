@@ -1,6 +1,6 @@
 import * as firebase from 'firebase'
 
-let database
+// let database
 export const init = () => {
   let config = {
     apiKey: "AIzaSyCFd4W4tFNc5JLlD_W4u9P5nDfI0TVZh3Y",
@@ -11,5 +11,5 @@ export const init = () => {
     messagingSenderId: "468363367085"
   }
   firebase.initializeApp(config)
-  database = firebase.database()
+  // database = firebase.database()
 }

@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import './FooterBar.css';
 
 
 
 export default class FooterBar extends Component {
 
-  static propTypes = {
-
-  };
 
   render() {
     return (

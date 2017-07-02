@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import './About.css'
 
 
@@ -17,7 +17,7 @@ export default class About extends Component {
           <div className="card">
             <div className="card-image">
               <figure className="image is-50x50">
-                <img src="https://user-images.githubusercontent.com/955730/27767950-f101c472-5ebb-11e7-943e-2dcb0d13ab56.jpg" alt="Image" id="mainpic" />
+                <img src="https://user-images.githubusercontent.com/955730/27772540-7d9b4d6a-5f19-11e7-956f-b9d4a5d9440b.jpg" alt="Image" id="mainp" />
               </figure>
             </div>
             <div className="card-content">
@@ -36,7 +36,15 @@ export default class About extends Component {
         </div>
       <div className="column">
         <div className="box">
-          <h1>poop</h1>
+          <h1 className="title" id="about">about<h1 className="title">me</h1></h1>
+          <p> Hi, I'm Brett. I'm a full time student at the University of San Francisco studying computer science. I spend my freetime taking photos, making music, and critiquing blockchain networks.
+          </p>
+        </div>
+        <div className="box">
+          <h1 className="title" >about<h1 className="title" id="about">this site</h1></h1>
+          <p> this is an overly engineered portfolio that's running React behind the hood. If you're interested in the source code, it's available
+            <a href="https://github.com/bretth18/portfolio"> here.</a>
+          </p>
         </div>
       </div>
     </div>
