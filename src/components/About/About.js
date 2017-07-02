@@ -5,9 +5,7 @@ import './About.css'
 
 export default class About extends Component {
 
-  static propTypes = {
 
-  };
 
   render() {
     return (
