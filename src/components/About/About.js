@@ -27,7 +27,7 @@ export default class About extends Component {
               </div>
 
               <div className="content">
-                <a>links</a>
+                <p id="booty">hey, that's me</p>
               </div>
             </div>
           </div>
